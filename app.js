@@ -111,7 +111,7 @@ $('#choice').click(function() {
     choice.innerHTML = "PRESS TO START WITH X";
     turn = 1;
     reset();
-  } else if (cpu.innerHTML = "PRESS TO START WITH X") {
+  } else if (choice.innerHTML = "PRESS TO START WITH X") {
     choice.innerHTML = "PRESS TO START WITH O";
     turn = 0;
     reset();
