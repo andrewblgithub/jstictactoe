@@ -1,0 +1,29 @@
+* {
+  font-family: "Arial Black", Gadget, sans-serif;
+}
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 500px;
+}
+.bg {
+  background-color: darkslategray;
+}
+.row {
+  background-color: whitesmoke;
+}
+.col {
+  border: 2px solid;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  font-size: 100px;
+}
+.btn {
+    background: transparent;
+    color: whitesmoke;
+  text-shadow:
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;
+}
