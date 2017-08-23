@@ -53,7 +53,17 @@ $('.col').click(function() {
       turnCount++;
       boxIDSet.splice(boxIDSet.indexOf(nextBox.id), 1)
       turn = 0;
-      allClear = 0;
+      allClear = 0;$('#choice').click(function() {
+  if(choice.innerHTML == "PRESS TO START WITH O") {
+    choice.innerHTML = "PRESS TO START WITH X";
+    turn = 1;
+    reset();
+  } else if (choice.innerHTML = "PRESS TO START WITH X") {
+    choice.innerHTML = "PRESS TO START WITH O";
+    turn = 0;
+    reset();
+  }
+});
     } else if (turn == 0) {
       nextBox.innerHTML = "X";
       turnCount++;
@@ -106,6 +116,7 @@ $('#cpu').click(function() {
     reset();
   }
 });
+
 $('#choice').click(function() {
   if(choice.innerHTML == "PRESS TO START WITH O") {
     choice.innerHTML = "PRESS TO START WITH X";
