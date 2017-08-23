@@ -106,3 +106,14 @@ $('#cpu').click(function() {
     reset();
   }
 });
+$('#choice').click(function() {
+  if(choice.innerHTML == "PRESS TO START WITH O") {
+    choice.innerHTML = "PRESS TO START WITH X";
+    turn = 1;
+    reset();
+  } else if (cpu.innerHTML = "PRESS TO START WITH X") {
+    choice.innerHTML = "PRESS TO START WITH O";
+    turn = 0;
+    reset();
+  }
+});
